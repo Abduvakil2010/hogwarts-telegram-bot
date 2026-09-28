@@ -22,15 +22,11 @@ class TelegramVerificationService {
   final String _baseUrl;
 
   static String _defaultBaseUrl() {
-    const configuredUrl = String.fromEnvironment('TELEGRAM_API_BASE_URL');
-    if (configuredUrl.isNotEmpty) return configuredUrl;
+  const configuredUrl = String.fromEnvironment('TELEGRAM_API_BASE_URL');
+  if (configuredUrl.isNotEmpty) return configuredUrl;
 
-    if (kIsWeb && Uri.base.host.isNotEmpty) {
-      return 'http://${Uri.base.host}:8000';
-    }
-
-    return 'http://127.0.0.1:8000';
-  }
+  return 'https://hogwarts-telegram-bot.onrender.com';
+}
 
   Future<void> verifyCode(String code) async {
     final cleanCode = code.trim();
