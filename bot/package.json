@@ -1,0 +1,11 @@
+{
+  "name": "hogwarts-telegram-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hogwarts Telegram verification bot",
+  "scripts": {
+    "install:deps": "python -m pip install -r requirements.txt",
+    "start": "python telegram_bot.py",
+    "dev": "python telegram_bot.py"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@@locale": "en",
+  "appName": "HOGWARTS",
+  "appSlogan": "Forward to success!",
+  "loading": "Loading...",
+  "save": "Save",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "teacher": "TEACHER",
+  "student": "STUDENT",
+  "earnedPoints": "Earned Points",
+  "myGroups": "My Groups",
+  "joinGroup": "Join Group",
+  "groupRating": "Group Rating",
+  "shopTitle": "HOGWARTS Shop"
+}

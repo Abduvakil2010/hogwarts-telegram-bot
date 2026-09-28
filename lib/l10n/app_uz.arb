@@ -1,0 +1,16 @@
+{
+  "@@locale": "uz",
+  "appName": "HOGWARTS",
+  "appSlogan": "Muvaffaqiyat sari olg‘a!",
+  "loading": "Yuklanmoqda...",
+  "save": "Saqlash",
+  "cancel": "Bekor qilish",
+  "confirm": "Tasdiqlash",
+  "teacher": "O‘QITUVCHI",
+  "student": "O‘QUVCHI",
+  "earnedPoints": "Jamg‘argan ballaringiz",
+  "myGroups": "Mening guruhlarim",
+  "joinGroup": "Guruhga qo‘shilish",
+  "groupRating": "Guruh reytingi",
+  "shopTitle": "HOGWARTS Do‘koni"
+}

@@ -1,0 +1,12 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "Git Bash (Hogwarts)": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["--login", "-i"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash (Hogwarts)",
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Users\\user\\Downloads\\flutter\\bin;${env:PATH}"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@@locale": "ru",
+  "appName": "HOGWARTS",
+  "appSlogan": "Вперёд к успеху!",
+  "loading": "Загрузка...",
+  "save": "Сохранить",
+  "cancel": "Отмена",
+  "confirm": "Подтвердить",
+  "teacher": "УЧИТЕЛЬ",
+  "student": "УЧЕНИК",
+  "earnedPoints": "Накопленные баллы",
+  "myGroups": "Мои группы",
+  "joinGroup": "Вступить в группу",
+  "groupRating": "Рейтинг группы",
+  "shopTitle": "Магазин HOGWARTS"
+}
