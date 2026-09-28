@@ -66,11 +66,13 @@ def main() -> None:
     application = ApplicationBuilder().token(TOKEN).build()
     application.add_handler(CommandHandler("start", start_command))
     application.add_handler(CommandHandler("help", help_command))
-    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text))
+    application.add_handler(
+        MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text)
+    )
 
     print(f"Telegram bot ishga tushdi: @{BOT_USERNAME}")
+
+    import asyncio
+
+    asyncio.set_event_loop(asyncio.new_event_loop())
     application.run_polling()
-
-
-if __name__ == "__main__":
-    main()
