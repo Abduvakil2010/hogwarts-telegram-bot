@@ -75,4 +75,4 @@ def main() -> None:
     import asyncio
 
     asyncio.set_event_loop(asyncio.new_event_loop())
-    application.run_polling()
+application.run_polling(stop_signals=None)
